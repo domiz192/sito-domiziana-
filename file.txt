@@ -1,0 +1,233 @@
+```html
+
+<!DOCTYPE html>
+
+<html lang="it">
+
+<head>
+
+<meta charset="UTF-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>Domiziana Clemente – PRO Make Up Artist</title>
+
+<style>
+
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Montserrat&display=swap');
+
+  body {
+
+    margin: 0;
+
+    background: #121212;
+
+    color: #eee;
+
+    font-family: 'Montserrat', sans-serif;
+
+  }
+
+  header {
+
+    text-align: center;
+
+    padding: 2rem 1rem 1rem;
+
+    border-bottom: 1px solid #4b2c3a;
+
+  }
+
+  header h1 {
+
+    font-family: 'Playfair Display', serif;
+
+    font-size: 2.5rem;
+
+    color: #d8a7b1;
+
+    margin: 0;
+
+    letter-spacing: 2px;
+
+  }
+
+  header p {
+
+    font-style: italic;
+
+    color: #b85c6b;
+
+    margin-top: 0.3rem;
+
+  }
+
+  main {
+
+    max-width: 900px;
+
+    margin: 2rem auto;
+
+    padding: 0 1rem;
+
+  }
+
+  section {
+
+    margin-bottom: 3rem;
+
+  }
+
+  h2 {
+
+    font-family: 'Playfair Display', serif;
+
+    font-size: 1.8rem;
+
+    color: #d8a7b1;
+
+    border-bottom: 2px solid #b85c6b;
+
+    padding-bottom: 0.3rem;
+
+    margin-bottom: 1rem;
+
+  }
+
+  .bio p {
+
+    line-height: 1.6;
+
+    color: #ccc;
+
+    max-width: 600px;
+
+  }
+
+  .gallery { display: grid;
+
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+
+    gap: 1rem;
+
+  }
+
+  .gallery div {
+
+    background: #2a2a2a;
+
+    height: 150px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    color: #555;
+
+    font-size: 0.9rem;
+
+    border: 2px dashed #b85c6b;
+
+  }
+
+  .contacts a {
+
+    color: #d8a7b1;
+
+    text-decoration: none;
+
+    margin-right: 1.2rem;
+
+    font-weight: 600;
+
+  }
+
+  .contacts a:hover {
+
+    color: #f2c6ca;
+
+  }
+
+  footer {
+
+    text-align: center;
+
+    padding: 1rem;
+
+    font-size: 0.9rem;
+
+    color: #555;
+
+  }
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+  <h1>Domiziana Clemente</h1>
+
+  <p>PRO Make Up Artist</p>
+
+</header>
+
+<main>
+
+  <section class="bio">
+
+    <h2>Chi sono</h2>
+
+    <p>
+
+      La mia passione per il make up nasce dal desiderio di valorizzare ogni volto in modo unico, ascoltando e rispettando l’essenza di chi ho di fronte. Amo creare look personalizzati, curati nei minimi dettagli, per far sentire ogni cliente al meglio, in ogni occasione.<br>
+
+      Nel tempo, mi sono specializzata anche nel trucco sposa: accompagnare una persona in un giorno così importante è una responsabilità che affronto con entusiasmo, delicatezza e professionalità.
+
+    </p>
+
+  </section>
+
+  <section class="gallery">
+
+    <h2>Galleria</h2> <div>Foto 1 (segnaposto)</div>
+
+    <div>Foto 2 (segnaposto)</div>
+
+    <div>Foto 3 (segnaposto)</div>
+
+    <div>Foto 4 (segnaposto)</div>
+
+    <div>Foto 5 (segnaposto)</div>
+
+  </section>
+
+  <section class="contacts">
+
+    <h2>Contatti</h2>
+
+    <a href="mailto:tuo@email.com">Email</a>
+
+    <a href="https://instagram.com/tuoprofilo" target="_blank" rel="noopener">Instagram</a>
+
+    <a href="https://wa.me/1234567890" target="_blank" rel="noopener">WhatsApp</a>
+
+  </section>
+
+</main>
+
+<footer>
+
+  &copy; 2025 Domiziana Clemente
+
+</footer>
+
+</body>
+
+</html>
+
+```
